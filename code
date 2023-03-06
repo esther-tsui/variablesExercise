@@ -1,0 +1,4 @@
+var tempf: Double = 83.0
+var tempc: Double = 0.0  //we are trying to convert from Fahrenheit to Celsius, and we don't know the value of Celsius yet. So we say its value is 0.0
+tempc = (tempf - 32)/1.8
+print("The temp is \(tempc) degrees Celsius.")
